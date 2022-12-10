@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Sawarabi Gothic', sans-serif;
+    background: gray;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    width: 80vw;
+    height: 92vh;
+    box-shadow: 0 8px 32px rgb(2, 4, 24);
+    background: url('https://gamerweb.pl/wp-content/uploads/2021/10/My-Friend-Peppa-Pig-e1634917699586.jpg');
+    border-radius: 10px;
+    display: flex;
+    margin-top: 30px;
+}
+.navbar{
+    width: 20%;
+    height: 100%;
+    background: rgba(10,10,10,0.3);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 2rem;
+}
+.navbar hr{
+    width: 90%;
+    height: 2px;
+    background: black;
+    border-radius: 3px;
+    margin: 5px;
+}
+h3{
+    padding: 10px 0px 10px 10px;
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+    color: antiquewhite;
+    font-weight: 200;
+}
+.navbar-item{
+    max-height: 100px;
+    padding: 5px;
+    cursor: pointer;
+}
+.navbar-item:hover{
+    color: rgba(255, 255, 255, 0.5);
+    transition: .4s ease-in-out;
+}
+i{
+    padding: 10px;
+}
+.profile span{
+    font-size: 60%;
+    overflow-x: hidden;
+}
+#logout{
+    margin-top: 70px;
+}
+.content{
+    padding: 20px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    background: rgba(31, 128, 65, 0.65);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;   
+}
+.content .content-top{
+    display: flex;
+    justify-content: space-between;
+}
+.content .content-top .content-top-profile{
+    display: flex;
+    margin-bottom: 10px;
+}
+.content .content-top .content-top-profile img{
+    border-radius: 50%;
+    margin:0 10px;
+}
+.content .content-top .content-top-profile .content-top-profile-name{
+    font-size: 2em;
+
+}
+.content input{
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    border: solid antiquewhite 1px;
+    color: black;
+    padding-left: 12px;
+}
+.main-picture img{
+    width: 900px;
+    height: 350px;
+    border-radius: 10px;
+}
+#slide{
+    width: 900px;
+    height: 350px;
+    position: relative;
+    border-radius: 10px;
+}
+#slide > * {
+    visibility: hidden; position: absolute;
+    top: 0; left: 0; animation: 16s autoplay infinite
+}
+@keyframes autoplay {
+    0% {visibility: visible}
+    33.33% {visibility: hidden}
+}
+#slide > *:nth-child(1) {animation-delay: 0s}
+#slide > *:nth-child(2) {animation-delay: 4s}
+#slide > *:nth-child(3) {animation-delay: 8s}
+#slide > *:nth-child(4) {animation-delay: 12s}
+h2{
+    color: aliceblue;
+    font-size: 2em;
+    padding-top: 10px;
+}
+.content .content-titles{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.content .content-titles span{
+    color: aliceblue;
+    padding-top: 30px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.content .content-titles span:hover{
+    color: rgba(255, 255, 255, 0.5)
+}
+.movies-categories{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.category{
+    margin: 0px 12px 0px 12px;
+    width: 14%;
+    height: 160px;
+}
+.category img{
+    width: 100%;
+    height: 100%;
+    transition: .3s ease-in-out;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.category img:hover{
+    transform: scale(1.1);
+}
