@@ -58,12 +58,24 @@ h3{
 i{
     padding: 10px;
 }
+.fa-user{
+    font-size: 60%;
+    padding-right: 1px;
+}
 .profile span{
     font-size: 60%;
     overflow-x: hidden;
 }
+.fa-gear{
+    font-size: 60%;
+    padding-right: 2px;
+}
+.settings span{
+    font-size: 60%;
+}
 #logout{
-    margin-top: 70px;
+    margin-top: 110px;
+    font-size: 70%;
 }
 .content{
     padding: 20px;
@@ -89,14 +101,32 @@ i{
     font-size: 2em;
 
 }
+.input-border{
+    display: flex;
+}
 .content input{
-    width: 500px;
+    width: 450px;
     height: 35px;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     background: rgba(255, 255, 255, 0.2);
     border: solid antiquewhite 1px;
     color: black;
     padding-left: 12px;
+}
+.fa-magnifying-glass{
+    border: solid antiquewhite 1px;
+    height: 35px;
+    margin: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    border: solid antiquewhite 1px;
+    color: antiquewhite;
+    cursor: pointer;
+}
+.fa-magnifying-glass:hover{
+    background: rgba(255, 255, 255, 0.5);
 }
 .main-picture img{
     width: 900px;
