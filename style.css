@@ -102,10 +102,11 @@ i{
 .content .content-top .content-top-profile img{
     border-radius: 50%;
     margin:0 10px;
+    cursor: pointer;
 }
 .content .content-top .content-top-profile .content-top-profile-name{
     font-size: 2em;
-
+    cursor: default;
 }
 .input-border{
     display: flex;
@@ -139,6 +140,7 @@ i{
     width: 61vw;
     height: 62vh;
     border-radius: 10px;
+    cursor: pointer;
 }
 #slide{
     overflow: hidden;
