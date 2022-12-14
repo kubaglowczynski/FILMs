@@ -203,6 +203,9 @@ h2{
     transform: scale(1.1);
 }
 @media screen and (max-width: 1000px) {
+    .container{
+        width: 95vw;
+    }
     .navbar{
         width: 20%;
         position: sticky;
@@ -257,6 +260,9 @@ h2{
     }
     .fa-gear{
         font-size: 3vh;
+    }
+    .content input{
+        width: 45vw;
     }
     .fa-magnifying-glass{
         font-size: 1vh;
