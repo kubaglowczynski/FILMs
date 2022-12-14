@@ -215,8 +215,8 @@ h2{
         scale: (0.0);
     }
     .main-picture img{
-            width: 100%;
-            height: 22vh;
+        width: 100%;
+        height: 22vh;
     }
     #slide{
         margin: 0;
@@ -250,16 +250,20 @@ h2{
         font-size: 2vh;
     }
     .navbar-item{
-        font-size: 2vh;
+        font-size: 3vh;
     }
     .profile{
-        font-size: 2vh;
+        font-size: 3vh;
     }
     .fa-gear{
-        font-size: 2vh;
+        font-size: 3vh;
     }
     .fa-magnifying-glass{
         font-size: 1vh;
         width: auto;
+    }
+    #logout{
+        position: relative;
+        font-size: 3vh;
     }
 }
