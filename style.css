@@ -228,17 +228,17 @@ h2{
     }
     .movies-categories{
         display: grid;
-        place-items: center;
-        align-content: start;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
     }
     .category{
         width: 100%;
-        height: 98%;
+        height: 100%;
         margin-bottom: 2vh;
     }
     .category img{
-        width: 100%;
-        height: 98%;
+        width: 90%;
+        height: 90%;
         margin-bottom: 2vh;
     }
     .content .content-titles span{
